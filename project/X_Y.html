@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+
+}
+
+#demo {
+    height: 100%;
+    width: 100%;
+    background-color: #b5bac2;
+}
+
+#info {
+    padding-left: 10px;
+    border-radius: 10px;
+    position: absolute;
+    user-select: none;
+    font-size: 2em;
+    width: 120px;
+    color: #EEEEEE;
+    background-color: #20229b;
+}
+    </style>
+</head>
+<body>
+    <div onmousemove="getCursor(event)" id="demo">
+  <div id="info"></div>
+</div>
+    <script src="X_Y.js"></script>
+</body>
+</html>
